@@ -1,0 +1,58 @@
+<mxfile host="Electron" modified="2024-05-24T17:41:42.097Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.4.6 Chrome/124.0.6367.207 Electron/30.0.6 Safari/537.36" etag="bQZoOCJzXM_gwkOoVky3" version="24.4.6" type="device">
+  <diagram name="Страница — 1" id="I31-gltjNqlyBC-u8OdT">
+    <mxGraphModel dx="1434" dy="844" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="c7QRLofPzIFgX0_e89LF-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="c7QRLofPzIFgX0_e89LF-1" target="c7QRLofPzIFgX0_e89LF-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c7QRLofPzIFgX0_e89LF-1" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Бинарный класс-файл&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="40" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="c7QRLofPzIFgX0_e89LF-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="c7QRLofPzIFgX0_e89LF-2" target="c7QRLofPzIFgX0_e89LF-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c7QRLofPzIFgX0_e89LF-2" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Загрузчик классов&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="160" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="c7QRLofPzIFgX0_e89LF-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="c7QRLofPzIFgX0_e89LF-3" target="c7QRLofPzIFgX0_e89LF-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c7QRLofPzIFgX0_e89LF-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="c7QRLofPzIFgX0_e89LF-3" target="c7QRLofPzIFgX0_e89LF-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c7QRLofPzIFgX0_e89LF-3" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Верификатор&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="400" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="c7QRLofPzIFgX0_e89LF-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="c7QRLofPzIFgX0_e89LF-4" target="c7QRLofPzIFgX0_e89LF-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c7QRLofPzIFgX0_e89LF-4" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Kava&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="280" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="c7QRLofPzIFgX0_e89LF-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="c7QRLofPzIFgX0_e89LF-6" target="c7QRLofPzIFgX0_e89LF-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c7QRLofPzIFgX0_e89LF-6" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Бинарный класс-файл метаобъектов&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="160" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="c7QRLofPzIFgX0_e89LF-9" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Интерпретатор&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="560" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="c7QRLofPzIFgX0_e89LF-10" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;JIT компилятор&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="560" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="c7QRLofPzIFgX0_e89LF-11" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Рантайм&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="680" width="400" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="c7QRLofPzIFgX0_e89LF-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.8;entryY=0.038;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="c7QRLofPzIFgX0_e89LF-10" target="c7QRLofPzIFgX0_e89LF-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c7QRLofPzIFgX0_e89LF-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.203;entryY=-0.025;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="c7QRLofPzIFgX0_e89LF-9" target="c7QRLofPzIFgX0_e89LF-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
