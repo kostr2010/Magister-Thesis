@@ -1,0 +1,92 @@
+<mxfile host="Electron" modified="2024-05-27T00:01:11.421Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.4.6 Chrome/124.0.6367.207 Electron/30.0.6 Safari/537.36" etag="gzr7e2S0VJxjiT8Y4zZF" version="24.4.6" type="device">
+  <diagram name="Страница — 1" id="VNzXfE7gPh0VeB1f7_Fk">
+    <mxGraphModel dx="1434" dy="844" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="jPdp95gmL9IEQT-Pg4HT-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" parent="1" source="jPdp95gmL9IEQT-Pg4HT-1" target="jPdp95gmL9IEQT-Pg4HT-10" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="220" y="140" />
+              <mxPoint x="220" y="232" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jPdp95gmL9IEQT-Pg4HT-1" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;class Logger1 { ... }&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="120" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jPdp95gmL9IEQT-Pg4HT-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="jPdp95gmL9IEQT-Pg4HT-2" target="jPdp95gmL9IEQT-Pg4HT-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jPdp95gmL9IEQT-Pg4HT-2" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;class Logger2 { ... }&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="240" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jPdp95gmL9IEQT-Pg4HT-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" parent="1" source="jPdp95gmL9IEQT-Pg4HT-3" target="jPdp95gmL9IEQT-Pg4HT-10" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="220" y="380" />
+              <mxPoint x="220" y="288" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jPdp95gmL9IEQT-Pg4HT-3" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;class Logger3 { ... }&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="360" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jPdp95gmL9IEQT-Pg4HT-4" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;void RegisterLog(Logger l) {...}&lt;/font&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;...&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;void main () {&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;RegisterLog(new Logger1());&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;RegisterLog(new Logger2());&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;RegisterLog(new Logger3());&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;}&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="720" y="160" width="253" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="jPdp95gmL9IEQT-Pg4HT-5" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Library 1 binary&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="100" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="jPdp95gmL9IEQT-Pg4HT-6" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Library 2&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;binary&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="220" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="jPdp95gmL9IEQT-Pg4HT-7" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Library 3&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;binary&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="340" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="jPdp95gmL9IEQT-Pg4HT-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="jPdp95gmL9IEQT-Pg4HT-10" target="jPdp95gmL9IEQT-Pg4HT-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jPdp95gmL9IEQT-Pg4HT-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="jPdp95gmL9IEQT-Pg4HT-10" target="jPdp95gmL9IEQT-Pg4HT-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jPdp95gmL9IEQT-Pg4HT-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="jPdp95gmL9IEQT-Pg4HT-10" target="jPdp95gmL9IEQT-Pg4HT-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jPdp95gmL9IEQT-Pg4HT-10" value="&lt;div&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;Binary mutator&lt;/span&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="240" y="220" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jPdp95gmL9IEQT-Pg4HT-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="jPdp95gmL9IEQT-Pg4HT-11" target="jPdp95gmL9IEQT-Pg4HT-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jPdp95gmL9IEQT-Pg4HT-11" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;class Logger1 extends Logger&amp;nbsp;{ ... }&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="400" y="120" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jPdp95gmL9IEQT-Pg4HT-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="jPdp95gmL9IEQT-Pg4HT-12" target="jPdp95gmL9IEQT-Pg4HT-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jPdp95gmL9IEQT-Pg4HT-12" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;class Logger2 extends Logger&amp;nbsp;{ ... }&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="400" y="240" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jPdp95gmL9IEQT-Pg4HT-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="jPdp95gmL9IEQT-Pg4HT-13" target="jPdp95gmL9IEQT-Pg4HT-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jPdp95gmL9IEQT-Pg4HT-13" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;class Logger3 extends Logger { ... }&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="400" y="360" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jPdp95gmL9IEQT-Pg4HT-23" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Library 1 modified binary&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="400" y="100" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="jPdp95gmL9IEQT-Pg4HT-24" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Library 3 modified binary&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="400" y="220" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="jPdp95gmL9IEQT-Pg4HT-25" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Library 3 modified binary&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="400" y="340" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="jPdp95gmL9IEQT-Pg4HT-26" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;User code&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="720" y="140" width="253" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
